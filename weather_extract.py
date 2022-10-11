@@ -51,4 +51,4 @@ def extract(original_file_path, new_file_path, site_name):
 
 if __name__ == "__main__":
     extract(sys.argv[1] + '.xlsx', sys.argv[2] + '.xlsx', sys.argv[3])
-    #extract('input/input_test.xlsx', 'input/output_test.xlsx', 'cch')
+    #extract('input&output/input_test.xlsx', 'input&output/output_test.xlsx', 'cch')
